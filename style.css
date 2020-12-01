@@ -44,6 +44,6 @@
   border: dashed 1px red;
 }
 
-.menu__line {
-  margin-top: 50px;
+.main {
+  background: center url(img/tesla-wordmark-big.svg);
 }
