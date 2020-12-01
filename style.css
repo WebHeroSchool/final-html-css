@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.logo {
+  margin: 24px 19% 0 0;
+  background: url(img/tesla-wordmark-red.svg);
+}
+
+.menu__item {
+  text-decoration: none;
+  margin-right: 46px;
+  font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
+  border: dashed 1px red;
+}
