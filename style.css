@@ -1,23 +1,49 @@
 .header {
   display: flex;
   justify-content: space-between;
+  margin: auto;
   width: 92%;
+}
+
+.menu-ru {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
 }
 
 .menu {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   margin-top: 40px;
+
 }
 
 .logo {
-  margin: 24px 19% 0 0;
-  background: url(img/tesla-wordmark-red.svg);
+  margin: 24px 0 0 0;
 }
 
 .menu__item {
   text-decoration: none;
   margin-right: 46px;
   font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
+  color: #000;
   border: dashed 1px red;
+}
+
+.menu__item:last-child {
+  display: flex;
+  margin-right: 0;
+}
+
+.menu-ru__item {
+  text-decoration: none;
+  margin-right: 30px;
+  font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
+  color: #000;
+  border: dashed 1px red;
+}
+
+.menu__line {
+  margin-top: 50px;
 }
