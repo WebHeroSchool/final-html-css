@@ -45,5 +45,58 @@
 }
 
 .main {
-  background: center url(img/tesla-wordmark-big.svg);
+  background: no-repeat center top 15px url(img/tesla-wordmark-big.svg);
+}
+
+.main__title {
+  display: flex;
+  justify-content: center;
+  margin: 74px 0 0 0;
+  font: 600 90px/110px montserrat, arial, helvetica, sans-serif;
+  color: #000;
+  border: dashed 1px red;
+}
+
+.main__subtitle {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  font: 500 15px/18px montserrat, arial, helvetica, sans-serif;
+  color: #000;
+  border: dashed 1px red;
+}
+
+.main__icon {
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.main__row {
+  display: flex;
+  margin: auto;
+  width: 55%;
+  border: dashed 1px red;
+}
+
+.main__column {
+  display: flex;
+  border: dashed 1px red;
+}
+
+.main-speed__column {
+  display: flex;
+  border: dashed 1px red;
+}
+
+.main-speed__icon {
+  background: url(img/speed.svg);
+}
+
+.main-speed__item {
+  border: dashed 1px red;
+}
+
+.main-distance__column {
+  display: flex;
 }
