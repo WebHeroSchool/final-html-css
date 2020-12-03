@@ -99,4 +99,5 @@
 
 .main-distance__column {
   display: flex;
+  border: dashed 1px red;
 }
