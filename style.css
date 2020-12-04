@@ -11,10 +11,10 @@
   margin-top: 40px;
 }
 
-.menu {
+.menu,
+.menu-ru {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-top: 40px;
 
 }
@@ -24,9 +24,9 @@
 }
 
 .menu__item {
+  font: 15px/18px montserratsemibold, arial, helvetica, sans-serif;
   text-decoration: none;
   margin-right: 46px;
-  font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
   color: #000;
   border: dashed 1px red;
 }
@@ -37,9 +37,9 @@
 }
 
 .menu-ru__item {
+  font: bold 15px/18px montserratsemibold, arial, helvetica, sans-serif;
   text-decoration: none;
   margin-right: 30px;
-  font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
   color: #000;
   border: dashed 1px red;
 }
@@ -49,19 +49,19 @@
 }
 
 .main__title {
+  font: 90px/110px montserratsemibold, arial, helvetica, sans-serif;
   display: flex;
   justify-content: center;
   margin: 74px 0 0 0;
-  font: 600 90px/110px montserrat, arial, helvetica, sans-serif;
   color: #000;
   border: dashed 1px red;
 }
 
 .main__subtitle {
+  font: 15px/18px montserratmedium, arial, helvetica, sans-serif;
   margin-top: 0;
   display: flex;
   justify-content: center;
-  font: 500 15px/18px montserrat, arial, helvetica, sans-serif;
   color: #000;
   border: dashed 1px red;
 }
@@ -86,15 +86,21 @@
 
 .main-speed__column {
   display: flex;
+  background: no-repeat left url(img/speed.svg);
   border: dashed 1px red;
 }
 
-.main-speed__icon {
-  background: url(img/speed.svg);
+.main-speed__title {
+  margin-left: 60px;
+  font: 35px/43px montserratsemibold, arial, helvetica, sans-serif;
+}
+
+.main-speed__text {
+  font: 20px/24px montserratsemibold, arial, helvetica, sans-serif;
 }
 
 .main-speed__item {
-  border: dashed 1px red;
+  margin-top: 70px;
 }
 
 .main-distance__column {
