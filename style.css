@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -37,7 +41,7 @@
 }
 
 .menu-ru__item {
-  font: bold 15px/18px montserratsemibold, arial, helvetica, sans-serif;
+  font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
   text-decoration: none;
   margin-right: 30px;
   color: #000;
@@ -58,7 +62,7 @@
 }
 
 .main__subtitle {
-  font: 15px/18px montserratmedium, arial, helvetica, sans-serif;
+  font: 500 15px/18px montserrat, arial, helvetica, sans-serif;
   margin-top: 0;
   display: flex;
   justify-content: center;
@@ -69,58 +73,152 @@
 .main__icon {
   display: flex;
   justify-content: center;
-  margin-right: 100px;
 }
 
 .main__row {
   display: flex;
   margin: auto;
-  width: 55%;
+  width: 60%;
   border: dashed 1px red;
 }
 
 .main__column {
+  margin-right: 105px;
   display: flex;
   border: dashed 1px red;
 }
 
 .main-speed__column {
   display: flex;
-  background: no-repeat left url(img/speed.svg);
+  background: no-repeat left 10px url(img/speed.svg);
+  width: 150px;
+  margin-right: 80px;
   border: dashed 1px red;
 }
 
 .main-speed__title {
+  margin-right: 3px;
   margin-left: 60px;
   font: 35px/43px montserratsemibold, arial, helvetica, sans-serif;
 }
 
 .main-speed__text {
-  font: 20px/24px montserratsemibold, arial, helvetica, sans-serif;
+  margin-top: 15px;
+  font: 600 20px/24px montserrat, sans-serif;
 }
 
 .main-speed__item {
+  margin-top: 40px;
+  margin-left: -90px;
   font: 12px/15px montserratregular, arial, helvetica, sans-serif;
-  margin-top: 70px;
 }
 
 .main-distance__column {
+  width: 140px;
   display: flex;
+  background: no-repeat left 7px url(img/road.svg);
   border: dashed 1px red;
 }
 
 .main-distance__title {
-  font: 35px/43px montserratsemibold, arial, helvetica, sans-serif;
+  margin-right: 5px;
+  margin-left: 45px;
+  font: 600 35px/43px montserrat, arial, helvetica, sans-serif;
 }
 
 .main-distance__text {
-  font: 20px/24px montserratsemibold, arial, helvetica, sans-serif;
+  margin-top: 15px;
+  font: 600 20px/24px montserrat, arial, helvetica, sans-serif;
 }
 
 .main-distance__item {
+  margin-top: 40px;
+  margin-left: -90px;
   font: 12px/15px montserratregular, arial, helvetica, sans-serif;
 }
 
+.main__button {
+  width: 100%;
+  background: no-repeat left url(img/steering-wheel.svg);
+  border: dashed 1px red;
+}
+
 .main-text__button {
-  font: 13px/15px montserratbold, arial, helvetica, sans-serif;  
+  margin-right: 24px;
+  margin-left: 25px;
+  text-decoration: none;
+  color: #000;
+  font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
+}
+
+.main-buy__button {
+  margin-top: 7px;
+  border-color: #E51937;
+  font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
+  color: #e51937;
+  padding: 10px 40px;
+  text-decoration: none;
+  border-radius: 0px;
+  outline: none;
+}
+
+.dropdown {
+  width: 28px;
+  height: 28px;
+  border-top: 3px solid #e51937;
+  border-right: 3px solid #e51937;
+  transform: rotate(135deg);
+  margin-left: 50%;
+  margin-top: 40px;
+  margin-bottom: 37px;
+}
+
+.main2 {
+  display: flex;
+  justify-content: space-between;
+  background: no-repeat left url(img/2013-tesla-model-s-cockpit.svg);
+}
+
+.block {
+  width: 440px;
+  height: 850px;
+  right: 1000px;
+  top: 900px;
+  background: #e51937;
+}
+
+.main2__title {
+  margin-left: 30px;
+  font: 600 70px/85px montserrat, arial, helvetica, sans-serif;
+  color: #e51937;
+}
+
+.block__title {
+  margin-top: 50px;
+  margin-left: 50px;
+  font: 600 30px/36px montserrat, arial, helvetica, sans-serif;
+  color: #fff;
+}
+
+.block__subtitle {
+  margin-top: 11px;
+  margin-left: 50px;
+  margin-right: 70px;
+  font: 500 15px/18px montserrat, arial, helvetica, sans-serif;
+  color: #fff;
+}
+
+.block__display {
+  display: flex;
+}
+
+.display {
+  margin: 66px 0 0 50px;
+}
+
+.display__title {
+  margin-left: 10px;
+  margin-top: 56px;
+  font: 600 35px/43px montserrat, arial, helvetica, sans-serif;
+
 }
