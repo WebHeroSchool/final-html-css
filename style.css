@@ -100,10 +100,27 @@
 }
 
 .main-speed__item {
+  font: 12px/15px montserratregular, arial, helvetica, sans-serif;
   margin-top: 70px;
 }
 
 .main-distance__column {
   display: flex;
   border: dashed 1px red;
+}
+
+.main-distance__title {
+  font: 35px/43px montserratsemibold, arial, helvetica, sans-serif;
+}
+
+.main-distance__text {
+  font: 20px/24px montserratsemibold, arial, helvetica, sans-serif;
+}
+
+.main-distance__item {
+  font: 12px/15px montserratregular, arial, helvetica, sans-serif;
+}
+
+.main-text__button {
+  font: 13px/15px montserratbold, arial, helvetica, sans-serif;  
 }
