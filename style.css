@@ -1,5 +1,14 @@
 body {
-  margin: 0;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
 }
 
 .header {
@@ -77,14 +86,15 @@ body {
 
 .main__row {
   display: flex;
+  justify-content: space-between;
   margin: auto;
   width: 55%;
   border: dashed 1px red;
 }
 
 .main__column {
-  margin-right: 105px;
   display: flex;
+  justify-content: space-between;
   border: dashed 1px red;
 }
 
@@ -181,6 +191,12 @@ body {
   margin-bottom: 37px;
 }
 
+.conteiner {
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+}
+
 .main2 {
   display: flex;
   justify-content: space-between;
@@ -251,7 +267,7 @@ body {
   color: #fff;
 }
 
-.block__wifi {
+.wifi {
   display: run-in;
   align-items: flex-start;
   background: no-repeat left 25px url(img/wifi.svg);
@@ -281,7 +297,7 @@ body {
   background: no-repeat left url(img/bag.svg);
 }
 
-.block__volume {
+.block-volume {
   display: flex;
   margin-left: 50px;
 }
@@ -308,23 +324,24 @@ body {
   color: #fff;
 }
 
-.main2__button {
+.section-button {
   display: flex;
   width: 75%;
   margin: auto;
   background: no-repeat left url(img/more.svg);
+  color: #fff;
 }
 
-.main2-text__button {
+.text__button {
   margin-top: 10px;
   margin-right: 22px;
   margin-left: 30px;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
 }
 
-.main2-buy__button {
+.buy__button {
   font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
   color: #fff;
   padding: 10px 40px;
@@ -333,13 +350,11 @@ body {
   outline: solid 2px #fff;
 }
 
-.main3 {
+.footer {
   display: flex;
-  justify-content: space-between;
-  background: no-repeat left url(img/frame.svg);
 }
 
-.block2 {
+.footer__left {
   margin-top: 0;
   width: 440px;
   height: 900px;
@@ -348,13 +363,13 @@ body {
   background: #e51937;
 }
 
-.block2__title {
+.footer__title {
   margin: 50px 70px 0 50px;
   font: 600 30px/37px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
 
-.block2__subtitle {
+.footer__subtitle {
   margin: 15px 70px 0 50px;
   font: 500 15px/18px montserrat, arial, helvetica, sans-serif;
   color: #fff;
@@ -376,22 +391,105 @@ body {
 .rack {
   font: 700 10px/12px montserrat, arial, helvetica, sans-serif;
   color: #fff;
+  opacity: 0.7;
+}
+
+.quality {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 21px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-right: 61px;
 }
 
 .five {
   margin-top: 100px;
-  background: no-repeat 18% url(img/done.png);
+  margin-left: 66px;
+  margin-bottom: 50px;
+  background: no-repeat left url(img/done.png);
+  color: #fff;
 }
 
 .five__title {
+  margin-left: 86px;
   margin-bottom: 0;
   margin-top: 0;
-  margin-left: 150px;
   font: 600 50px/60px montserrat, arial, helvetica, sans-serif;
 }
 
 .five__subtitle {
-  margin-left: 150px;
+  margin-left: 86px;
   margin-top: 0;
   font: 600 25px/30px montserrat, arial, helvetica, sans-serif;
+}
+
+.footer__right {
+  display: flex;
+  position: relative;
+}
+
+.footer__text {
+
+  font: 600 200px/244px montserrat, arial, helvetica, sans-serif;
+  margin-top: 100px;
+  margin-left: 190px;
+  color: #E51937;
+  opacity: 0.1;
+}
+
+.footer__icon {
+  position: absolute;
+  margin-top: 223px;
+  margin-left: -100px;
+}
+
+.footer-button {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  background: no-repeat left url(img/more.svg);
+}
+
+.more__button {
+  margin-top: 10px;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #fff;
+  font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
+}
+
+.order__button {
+  font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
+  color: #fff;
+  padding: 10px 40px;
+  height: fit-content;
+  text-decoration: none;
+  outline: solid 2px #fff;
+}
+
+.security {
+  display: flex;
+  position: absolute;
+  font: 600 17px/15px montserrat, arial, helvetica, sans-serif;
+  width: 170px;
+}
+
+.item1 {
+  margin-top: 221px;
+  margin-left: 164px;
+}
+
+.item2 {
+  margin-top: 175px;
+  margin-left: 442px;
+}
+
+.item3 {
+  align-items: flex-end;
+  width: 250px;
+  margin-top: 591px;
+  margin-left: 498px;
 }
