@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
 }
 
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -131,9 +132,7 @@ body {
 }
 
 .main-speed__title {
-  margin-top: 25px;
-  margin-right: 3px;
-  margin-left: 60px;
+  margin: 25px 3px 0 60px;
   font: 35px/43px montserratsemibold, arial, helvetica, sans-serif;
 }
 
@@ -143,8 +142,7 @@ body {
 }
 
 .main-speed__item {
-  margin-top: 0;
-  margin-left: 60px;
+  margin: 0 0 0 60px;
   font: 12px/15px montserratregular, arial, helvetica, sans-serif;
 }
 
@@ -518,9 +516,11 @@ body {
 
 @media (max-width: 765px) {
   .wrapper {
-    justify-content: center;
-    display: flex;
+    width: 765px;
+  }
 
+  .menu__line {
+    display: block;
   }
 
   .menu,
@@ -549,10 +549,32 @@ body {
 
 
   .main__row {
+    display: block;
+  }
 
+  .main__column {
+    width: 75%;
+    margin: auto;
   }
 
   .speed{
-    background: url(img/mobile/speed.svg);
+    background: no-repeat left url(img/mobile/speed.svg);
+  }
+
+  .main-speed__column {
+    margin-right: 0px;
+  }
+
+  .main-speed__title {
+    font: 600 27px/33px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .distance {
+    background: url(img/mobile/road.svg);
+  }
+
+  .main2,
+  .footer {
+    display: none;
   }
 }
