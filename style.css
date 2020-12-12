@@ -486,6 +486,7 @@ body {
 
 .footer-button {
   display: flex;
+  justify-content: space-between;
   width: 82%;
   margin: auto;
   background: no-repeat left url(img/more.svg);
@@ -1026,7 +1027,6 @@ body {
   .protection {
     margin-top: 63px;
     margin-left: 72px;
-
   }
 
   .location {
@@ -1059,7 +1059,6 @@ body {
   .order__button {
     font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
     padding: 15px 65px;
-}
   }
 
   .footer__right {
@@ -1119,14 +1118,10 @@ body {
     height: 87px;
   }
 
+  .five,
   .footer__icon {
     display: none;
   }
-
-  .five {
-    display: none;
-  }
-
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -1163,8 +1158,117 @@ body {
     border: dashed 1px red;
   }
 
-  .main2,
-  .footer {
-    display: none;
+  .dropdown {
+    margin-top: 45px;
+    margin-bottom: 100px;
+    margin-left: 50%;
+  }
+
+  .main2 {
+    background: no-repeat left 60px url(img/ipad/salon.svg);
+    background-size: cover;
+  }
+
+  .block {
+    width: 400px;
+    height: 700px;
+  }
+
+  .block__title {
+    font: 600 25px/36px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .block__subtitle {
+    margin-right: 20px;
+    font-size: 13px;
+  }
+
+  .main2__functions {
+    margin-bottom: 60px;
+  }
+
+  .display {
+    margin-top: 45px;
+  }
+
+  .section-button,
+  .footer-button {
+    width: 86%;
+  }
+
+  .footer__icon {
+    width: 720px;
+    margin-top: 350px;
+  }
+
+  .footer__left {
+    width: 400px;
+  }
+
+  .footer__title {
+    margin: 50px 70px 0 64px;
+    font-size: 25px;
+  }
+
+  .footer__subtitle {
+    margin: 15px 60px 0 60px;
+    font-size: 13px;
+  }
+
+  .protection,
+  .location,
+  .five {
+    margin-left: 60px;
+  }
+
+  .protection {
+    font-size: 27px;
+  }
+
+  .quality {
+    padding-right: 55px;
+  }
+
+  .five {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .five__title {
+    background-size: 60px;
+    font-size: 45px;
+  }
+
+  .footer-button {
+    width: 90%;
+}
+
+  .more__button,
+  .order__button {
+    font-size: 14px;
+  }
+
+  .item1 {
+    font-size: 15px;
+    margin-top: 261px;
+    margin-left: 79px;
+  }
+
+  .item2 {
+    font-size: 15px;
+    margin-top: 278px;
+    margin-left: 270px;
+  }
+
+  .item3 {
+    font-size: 15px;
+    margin-top: 600px;
+    margin-left: 308px;
+  }
+
+  .footer__text {
+    font-size: 122px;
+    margin-left: 120px;
+    margin-top: 240px;
   }
 }
