@@ -1127,7 +1127,7 @@ body {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .wrapper {
-    max-width: 1024px;
+    width: 1024px;
   }
 
   .menu__item {
@@ -1166,6 +1166,7 @@ body {
   }
 
   .main2 {
+    width: 1024px;
     background: no-repeat left 60px url(img/ipad/salon.svg);
     background-size: cover;
   }
@@ -1244,13 +1245,21 @@ body {
     font-size: 14px;
   }
 
+  .footer {
+
+  }
+
   .footer__right {
 
   }
 
   .footer__icon {
-    max-width: 680px;
+    max-width: 144%;
     margin-top: 350px;
+  }
+
+  .security {
+
   }
 
   .item1 {
@@ -1273,7 +1282,8 @@ body {
 
   .footer__text {
     white-space: nowrap;
-    font: 600 115px/244px montserrat, arial, helvetica, sans-serif;
+    font-size: 11.2304vw;
+    line-height: 244px;
     margin-left: 30px;
     margin-top: 240px;
   }
