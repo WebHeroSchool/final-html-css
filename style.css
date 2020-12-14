@@ -535,6 +535,518 @@ body {
   margin-left: 498px;
 }
 
+@media screen and (min-width: 1439px) and (max-width: 1025px) {
+
+}
+
+@media screen and (min-width: 869px) and (max-width: 1024px) {
+  .wrapper {
+    width: 100vw;
+  }
+
+  .menu__item {
+    margin-right: 36px;
+    font: 600 13px/18px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .menu-ru__item {
+    margin-right: 25px;
+    font: 600 13px/18px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .main {
+    background: no-repeat center 15px url(img/1024/background.svg);
+  }
+
+  .tesla-main {
+    height: 350px;
+  }
+
+  .main__row {
+    width: 70%;
+    margin: auto;
+  }
+
+  .main-speed__column {
+    display: flex;
+    margin-right: 40px;
+    border: dashed 1px red;
+  }
+
+  .dropdown {
+    margin-top: 45px;
+    margin-bottom: 100px;
+    margin-left: 50%;
+  }
+
+  .main2 {
+    width: 100vw;
+    background: no-repeat left 60px url(img/ipad/salon.svg);
+    background-size: cover;
+  }
+
+  .block {
+    width: 400px;
+    height: 700px;
+  }
+
+  .block__title {
+    font: 600 25px/36px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .block__subtitle {
+    margin-right: 20px;
+    font-size: 13px;
+  }
+
+  .main2__functions {
+    margin-bottom: 60px;
+  }
+
+  .display {
+    margin-top: 45px;
+  }
+
+  .section-button,
+  .footer-button {
+    width: 86%;
+  }
+
+  .footer__left {
+    width: 400px;
+  }
+
+  .footer__title {
+    margin: 50px 70px 0 64px;
+    font-size: 25px;
+  }
+
+  .footer__subtitle {
+    margin: 15px 60px 0 60px;
+    font-size: 13px;
+  }
+
+  .protection,
+  .location,
+  .five {
+    margin-left: 60px;
+  }
+
+  .protection {
+    font-size: 27px;
+  }
+
+  .quality {
+    padding-right: 55px;
+  }
+
+  .five {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .five__title {
+    background-size: 60px;
+    font-size: 45px;
+  }
+
+  .footer-button {
+    width: 90%;
+  }
+
+  .more__button,
+  .order__button {
+    font-size: 14px;
+  }
+
+  .footer__icon {
+    max-width: 144%;
+    margin-top: 350px;
+  }
+
+  .security {
+    width: 10vw;
+  }
+
+  .item1 {
+    font-size: 15px;
+    margin-top: 261px;
+    margin-left: 79px;
+  }
+
+  .item2 {
+    font-size: 15px;
+    margin-top: 278px;
+    margin-left: 270px;
+  }
+
+  .item3 {
+    font-size: 15px;
+    margin-top: 600px;
+    margin-left: 308px;
+  }
+
+  .footer__text {
+    white-space: nowrap;
+    font-size: 100px;
+    line-height: 244px;
+    margin-left: 30px;
+    margin-top: 240px;
+  }
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 868px) {
+  .wrapper {
+    width: 868px;
+  }
+
+  .menu__line {
+    display: none;
+  }
+
+  .menu,
+  .menu-ru__item {
+    display: none;
+  }
+
+  .header {
+    width: 96%;
+    background: no-repeat 97% 40px url(img/ipad/menu.svg);
+  }
+
+  .tesla-main {
+    margin-bottom: 20px;
+    width: 703px;
+    height: 328px;
+  }
+
+  .main {
+    background: no-repeat center top 80px url(img/ipad/background.svg);
+  }
+
+  .main__title {
+    margin-top: 90px;
+    line-height: 85px;
+  }
+
+  .main__column{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+  }
+  .tesla__title {
+    margin-bottom: 85px;
+  }
+
+  .main__row {
+    display: block;
+    width: 63%;
+    margin: auto;
+  }
+
+  .speed{
+    background: no-repeat left 20px url(img/ipad/speed.svg);
+  }
+
+  .distance {
+    background: no-repeat left 15px url(img/ipad/road.svg);
+  }
+
+  .main-speed__column {
+    height: 60px;
+    margin-right: 0px;
+  }
+
+  .main-distance__column {
+    height: 60px;
+  }
+
+  .main-speed__title {
+    margin: 5px 0px 0 85px;
+    font: 600 50px/61px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .main-distance__title {
+    margin-right: 0px;
+    margin-top: 2px;
+    margin-left: 60px;
+    font: 600 50px/61px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .main-speed__text,
+  .main-distance__text {
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font: 600 20px/24px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .main-speed__item {
+    margin-left: 85px;
+    font: 400 12px/15px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .main-distance__item {
+    margin-bottom: 10;
+    margin-left: 60px;
+    font: 400 12px/15px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    margin: auto;
+    background: no-repeat left 26px url(img/ipad/wheel.svg);
+  }
+
+  .main-text__button {
+    margin-left: 45px;
+    margin-top: 35px;
+    font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .main-buy__button {
+    font: 700 13px/16px montserrat, arial, helvetica, sans-serif;
+    margin-top: 15px;
+    color: #fff;
+    padding: 20px 73px;
+    outline: solid 2px #fff;
+    background: #e51937;
+  }
+
+  .dropdown  {
+    margin-top: 50px;
+    margin-left: 49%;
+    margin-bottom: 65px;
+  }
+
+  .main2{
+    background: no-repeat left 0 url(img/ipad/salon.png);
+    background-size: 868px;
+    display: flex;
+    flex-direction: column;
+    width: 868px;
+  }
+
+  .main2__title {
+    margin-top: 10px;
+    margin-left: 435px;
+    font: 600 70px/85px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .block {
+    margin-top: 348px;
+    width: 868px;
+    height: 487px;
+  }
+
+  .main2__functions {
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  .block__title {
+    margin-top: 60px;
+    margin-left: 35px;
+  }
+
+  .block__subtitle {
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+
+  .block__functions {
+    margin-right: 80px;
+  }
+
+  .display {
+    margin-bottom: 15px;
+  }
+
+  .display__title {
+  margin-top: 3px;
+  margin-right: 10px;
+  margin-left: 55px;
+  }
+
+  .display__subtitle {
+    margin-top: 18px;
+  }
+
+  .wifi {
+    background: no-repeat left 15px url(img/wifi.svg);
+    margin-left: 45px;
+    margin-bottom: 22px;
+  }
+
+  .wifi__title {
+    margin-left: 65px;
+  }
+
+  .wifi__item {
+    margin-left: 65px;
+  }
+
+  .volume {
+    margin-left: 45px;
+  }
+
+  .section-button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    width: 60%;
+    background: no-repeat left url(img/ipad/more.svg);
+  }
+
+  .text__button {
+    font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
+    margin-left: 45px;
+    margin-top: 15px;
+  }
+
+  .buy__button {
+    font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
+    padding: 15px 65px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__left{
+    order: 2;
+    width: 868px;
+    height: 487px;
+    margin-top: 40px;
+  }
+
+  .footer__item {
+    width: 350px;
+  }
+
+  .footer__title,
+  .footer__subtitle {
+    margin-left: 34px;
+    width: 330px;
+  }
+
+  .footer__title {
+    margin-top: 63px;
+  }
+
+  .footer__subtitle {
+    margin-top: 10px;
+  }
+
+  .footer__info {
+    display: flex;
+  }
+
+  .protection {
+    margin-top: 63px;
+    margin-left: 72px;
+  }
+
+  .location {
+    margin-top: 27px;
+    margin-left: 72px;
+  }
+
+  .quality {
+    padding-right: 40px;
+  }
+
+  .front {
+    margin-right: 60px;
+  }
+
+  .footer-button {
+    display: flex;
+    justify-content: space-between;
+    background: no-repeat left url(img/ipad/more.svg);
+    margin-top: 58px;
+    width: 60%;
+  }
+
+  .more__button {
+    margin-top: 15px;
+    margin-left: 45px;
+    font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .order__button {
+    font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
+    padding: 15px 65px;
+  }
+
+  .footer__right {
+    order: 1;
+    background: no-repeat 0 110px url(img/ipad/ipadcar.svg);
+    width: 868px;
+    height: 500px;
+  }
+
+  .footer__text {
+    z-index: -1;
+    font: 600 148px/180px montserrat, arial, helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+
+  .item1 {
+    margin-top: 115px;
+    margin-left: 173px;
+  }
+
+  .item2 {
+    margin-top: 83px;
+    margin-left: 372px;
+  }
+
+  .item3 {
+    margin-top: 365px;
+    margin-left: 412px;
+  }
+
+  .security {
+    font: 600 15px/13px montserrat, arial, helvetica, sans-serif;
+  }
+
+  .security-1,
+  .security-2,
+  .security-3 {
+    width: 130px;
+  }
+
+  .security-3 {
+    margin-top: 58px;
+    margin-left: 10px;
+    width: 180px;
+  }
+
+  .line__item1 {
+    height: 201px;
+  }
+
+  .line__item2 {
+    height: 94px;
+  }
+
+  .line__item3 {
+    height: 87px;
+  }
+
+  .five,
+  .footer__icon {
+    display: none;
+  }
+}
+
 @media (max-width: 375px) {
   .wrapper {
     width: 375px;
@@ -772,519 +1284,5 @@ body {
   .footer__icon,
   .footer-button {
     display: none;
-  }
-}
-
-@media screen and (min-width: 376px) and (max-width: 768px) {
-  .wrapper {
-    width: 768px;
-  }
-
-  .menu__line {
-    display: none;
-  }
-
-  .menu,
-  .menu-ru__item {
-    display: none;
-  }
-
-  .header {
-    width: 96%;
-    background: no-repeat 97% 40px url(img/ipad/menu.svg);
-  }
-
-  .tesla-main {
-    margin-bottom: 20px;
-    width: 703px;
-    height: 328px;
-  }
-
-  .main {
-    background: no-repeat center top 80px url(img/ipad/background.svg);
-  }
-
-  .main__title {
-    margin-top: 90px;
-    line-height: 85px;
-  }
-
-  .main__column{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 37px;
-  }
-  .tesla__title {
-    margin-bottom: 85px;
-  }
-
-  .main__row {
-    display: block;
-    width: 63%;
-    margin: auto;
-  }
-
-  .speed{
-    background: no-repeat left 20px url(img/ipad/speed.svg);
-  }
-
-  .distance {
-    background: no-repeat left 15px url(img/ipad/road.svg);
-  }
-
-  .main-speed__column {
-    height: 60px;
-    margin-right: 0px;
-  }
-
-  .main-distance__column {
-    height: 60px;
-  }
-
-  .main-speed__title {
-    margin: 5px 0px 0 85px;
-    font: 600 50px/61px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .main-distance__title {
-    margin-right: 0px;
-    margin-top: 2px;
-    margin-left: 60px;
-    font: 600 50px/61px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .main-speed__text,
-  .main-distance__text {
-    margin-right: 10px;
-    margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font: 600 20px/24px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .main-speed__item {
-    margin-left: 85px;
-    font: 400 12px/15px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .main-distance__item {
-    margin-bottom: 10;
-    margin-left: 60px;
-    font: 400 12px/15px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .main__button {
-    display: flex;
-    justify-content: space-between;
-    width: 86%;
-    margin: auto;
-    background: no-repeat left 26px url(img/ipad/wheel.svg);
-  }
-
-  .main-text__button {
-    margin-left: 45px;
-    margin-top: 35px;
-    font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .main-buy__button {
-    font: 700 13px/16px montserrat, arial, helvetica, sans-serif;
-    margin-top: 15px;
-    color: #fff;
-    padding: 20px 73px;
-    outline: solid 2px #fff;
-    background: #e51937;
-  }
-
-  .dropdown  {
-    margin-top: 50px;
-    margin-left: 49%;
-    margin-bottom: 65px;
-  }
-
-  .main2{
-    background: no-repeat left 0 url(img/ipad/salon.png);
-    display: flex;
-    flex-direction: column;
-    width: 768px;
-  }
-
-  .main2__title {
-    margin-top: 10px;
-    margin-left: 435px;
-    font: 600 70px/85px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .block {
-    margin-top: 348px;
-    width: 768px;
-    height: 487px;
-  }
-
-  .main2__functions {
-    display: flex;
-    margin-bottom: 50px;
-  }
-
-  .block__title {
-    margin-top: 60px;
-    margin-left: 35px;
-  }
-
-  .block__subtitle {
-    margin-top: 20px;
-    margin-left: 35px;
-  }
-
-  .block__functions {
-    margin-right: 80px;
-  }
-
-  .display {
-    margin-bottom: 15px;
-  }
-
-  .display__title {
-  margin-top: 3px;
-  margin-right: 10px;
-  margin-left: 55px;
-  }
-
-  .display__subtitle {
-    margin-top: 18px;
-  }
-
-  .wifi {
-    background: no-repeat left 15px url(img/wifi.svg);
-    margin-left: 45px;
-    margin-bottom: 22px;
-  }
-
-  .wifi__title {
-    margin-left: 65px;
-  }
-
-  .wifi__item {
-    margin-left: 65px;
-  }
-
-  .volume {
-    margin-left: 45px;
-  }
-
-  .section-button {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 56px;
-    width: 60%;
-    background: no-repeat left url(img/ipad/more.svg);
-  }
-
-  .text__button {
-    font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
-    margin-left: 45px;
-    margin-top: 15px;
-  }
-
-  .buy__button {
-    font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
-    padding: 15px 65px;
-  }
-
-  .footer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer__left{
-    order: 2;
-    width: 768px;
-    height: 487px;
-    margin-top: 40px;
-  }
-
-  .footer__item {
-    width: 350px;
-  }
-
-  .footer__title,
-  .footer__subtitle {
-    margin-left: 34px;
-    width: 330px;
-  }
-
-  .footer__title {
-    margin-top: 63px;
-  }
-
-  .footer__subtitle {
-    margin-top: 10px;
-  }
-
-  .footer__info {
-    display: flex;
-  }
-
-  .protection {
-    margin-top: 63px;
-    margin-left: 72px;
-  }
-
-  .location {
-    margin-top: 27px;
-    margin-left: 72px;
-  }
-
-  .quality {
-    padding-right: 40px;
-  }
-
-  .front {
-    margin-right: 60px;
-  }
-
-  .footer-button {
-    display: flex;
-    justify-content: space-between;
-    background: no-repeat left url(img/ipad/more.svg);
-    margin-top: 58px;
-    width: 60%;
-  }
-
-  .more__button {
-    margin-top: 15px;
-    margin-left: 45px;
-    font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .order__button {
-    font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
-    padding: 15px 65px;
-  }
-
-  .footer__right {
-    order: 1;
-    background: no-repeat 0 110px url(img/ipad/ipadcar.svg);
-    width: 768px;
-    height: 500px;
-  }
-
-  .footer__text {
-    z-index: -1;
-    font: 600 148px/180px montserrat, arial, helvetica, sans-serif;
-    margin-top: 40px;
-    margin-left: 80px;
-  }
-
-  .item1 {
-    margin-top: 115px;
-    margin-left: 173px;
-  }
-
-  .item2 {
-    margin-top: 83px;
-    margin-left: 372px;
-  }
-
-  .item3 {
-    margin-top: 365px;
-    margin-left: 412px;
-  }
-
-  .security {
-    font: 600 15px/13px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .security-1,
-  .security-2,
-  .security-3 {
-    width: 130px;
-  }
-
-  .security-3 {
-    margin-top: 58px;
-    margin-left: 10px;
-    width: 180px;
-  }
-
-  .line__item1 {
-    height: 201px;
-  }
-
-  .line__item2 {
-    height: 94px;
-  }
-
-  .line__item3 {
-    height: 87px;
-  }
-
-  .five,
-  .footer__icon {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .wrapper {
-    width: 1024px;
-  }
-
-  .menu__item {
-    margin-right: 36px;
-    font: 600 13px/18px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .menu-ru__item {
-    margin-right: 25px;
-    font: 600 13px/18px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .main {
-    background: no-repeat center 15px url(img/1024/background.svg);
-  }
-
-  .tesla-main {
-    height: 350px;
-  }
-
-  .main__row {
-    width: 70%;
-    margin: auto;
-  }
-
-  .main-speed__column {
-    display: flex;
-    margin-right: 40px;
-    border: dashed 1px red;
-  }
-
-  .dropdown {
-    margin-top: 45px;
-    margin-bottom: 100px;
-    margin-left: 50%;
-  }
-
-  .main2 {
-    width: 1024px;
-    background: no-repeat left 60px url(img/ipad/salon.svg);
-    background-size: cover;
-  }
-
-  .block {
-    width: 400px;
-    height: 700px;
-  }
-
-  .block__title {
-    font: 600 25px/36px montserrat, arial, helvetica, sans-serif;
-  }
-
-  .block__subtitle {
-    margin-right: 20px;
-    font-size: 13px;
-  }
-
-  .main2__functions {
-    margin-bottom: 60px;
-  }
-
-  .display {
-    margin-top: 45px;
-  }
-
-  .section-button,
-  .footer-button {
-    width: 86%;
-  }
-
-  .footer__left {
-    width: 400px;
-  }
-
-  .footer__title {
-    margin: 50px 70px 0 64px;
-    font-size: 25px;
-  }
-
-  .footer__subtitle {
-    margin: 15px 60px 0 60px;
-    font-size: 13px;
-  }
-
-  .protection,
-  .location,
-  .five {
-    margin-left: 60px;
-  }
-
-  .protection {
-    font-size: 27px;
-  }
-
-  .quality {
-    padding-right: 55px;
-  }
-
-  .five {
-    margin-top: 60px;
-    margin-bottom: 50px;
-  }
-
-  .five__title {
-    background-size: 60px;
-    font-size: 45px;
-  }
-
-  .footer-button {
-    width: 90%;
-}
-
-  .more__button,
-  .order__button {
-    font-size: 14px;
-  }
-
-  .footer {
-
-  }
-
-  .footer__right {
-
-  }
-
-  .footer__icon {
-    max-width: 144%;
-    margin-top: 350px;
-  }
-
-  .security {
-
-  }
-
-  .item1 {
-    font-size: 15px;
-    margin-top: 261px;
-    margin-left: 79px;
-  }
-
-  .item2 {
-    font-size: 15px;
-    margin-top: 278px;
-    margin-left: 270px;
-  }
-
-  .item3 {
-    font-size: 15px;
-    margin-top: 600px;
-    margin-left: 308px;
-  }
-
-  .footer__text {
-    white-space: nowrap;
-    font-size: 11.2304vw;
-    line-height: 244px;
-    margin-left: 30px;
-    margin-top: 240px;
   }
 }
