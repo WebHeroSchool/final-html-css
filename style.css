@@ -9,6 +9,7 @@ body {
   justify-content: space-between;
   margin: auto;
   width: 94%;
+  animation: animation 1s;
 }
 
 .menu {
@@ -20,8 +21,7 @@ body {
 .menu-ru {
   display: flex;
   align-items: center;
-  margin-top: 25px;
-  margin-right: 20px;
+  margin: 25px 20px 0 0;
 }
 
 .logo {
@@ -108,6 +108,7 @@ body {
 
 .main {
   background: no-repeat center -15px url(img/tesla-wordmark-big.svg);
+  animation: animation 4s;
 }
 
 .main__title {
@@ -176,9 +177,7 @@ body {
 }
 
 .main-distance__title {
-  margin-top: 25px;
-  margin-right: 6px;
-  margin-left: 52px;
+  margin: 25px 6px 0 52px;
   font: 600 35px/41px montserrat, arial, helvetica, sans-serif;
 }
 
@@ -200,9 +199,7 @@ body {
 
 .main-text__button {
   width: max-content;
-  margin-top: 48px;
-  margin-right: 36px;
-  margin-left: 35px;
+  margin: 48px 36px 0 35px;
   text-decoration: none;
   color: #000;
   font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
@@ -213,27 +210,7 @@ body {
   font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
   color: #e51937;
   padding: 10px 45px;
-  height: fit-content;
-  text-decoration: none;
-  outline: none;
-  display: inline-block;
-  position: relative;
   border: 2px solid #e51937;
-  transition: .4s;
-}
-
-.main-buy__button::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  border: 2px solid rgba(0,0,0,0);
-  transition: .4s;
 }
 
 .main-buy__button:hover::after {
@@ -248,20 +225,18 @@ body {
   border-top: 3px solid #e51937;
   border-right: 3px solid #e51937;
   transform: rotate(135deg);
-  margin-left: 710px;
-  margin-top: 15px;
-  margin-bottom: 40px;
+  margin: 15px 0 40px 710px;
 }
 
 .main2 {
   display: flex;
   justify-content: space-between;
   background: no-repeat left 60px url(img/2013-tesla-model-s-cockpit.svg);
+  animation: animation 3s;
 }
 
 .main2__title {
-  margin-top: 65px;
-  margin-left: 80px;
+  margin: 65px 0 0 80px;
   font: 600 70px/85px montserrat, arial, helvetica, sans-serif;
   color: #e51937;
 }
@@ -275,16 +250,13 @@ body {
 }
 
 .block__title {
-  margin-top: 50px;
-  margin-bottom: 10px;
-  margin-left: 50px;
+  margin: 50px 0 10px 50px;
   font: 600 30px/36px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
 
 .block__subtitle {
-  margin-left: 50px;
-  margin-right: 70px;
+  margin: 0 70px 0 50px;
   font: 500 15px/18px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
@@ -304,9 +276,7 @@ body {
 }
 
 .display__title {
-  margin-top: 0;
-  margin-right: 10px;
-  margin-left: 57px;
+  margin: 0 10px 0 57px;
   font: 600 35px/43px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
@@ -318,8 +288,7 @@ body {
 }
 
 .display__item{
-  margin-left: 57px;
-  margin-top: 0;
+  margin: 0 0 0 57px;
   font: 400 12px/15px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
@@ -333,17 +302,14 @@ body {
 
 .wifi__title {
   width: 171px;
-  margin-bottom: 0;
-  margin-left: 60px;
-  margin-top: 10px;
+  margin: 10px 0 0 60px;
   font: 600 20px/18px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
 
 .wifi__item {
   width: 171px;
-  margin-top: 5px;
-  margin-left: 60px;
+  margin: 5px 0 0 60px;
   font: 400 12px/15px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
@@ -359,8 +325,7 @@ body {
 }
 
 .volume__title {
-  margin-top: 0;
-  margin-right: 10px;
+  margin: 0 10px 0 0;
   font: 600 35px/40px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
@@ -373,8 +338,7 @@ body {
 
 .volume__item{
   width: 171px;
-  margin-left: 62px;
-  margin-top: 0px;
+  margin: 0px 0 0 62px;
   font: 400 12px/15px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
@@ -388,9 +352,7 @@ body {
 }
 
 .text__button {
-  margin-top: 10px;
-  margin-right: 36px;
-  margin-left: 30px;
+  margin: 10px 36px 0 30px;
   text-decoration: none;
   color: #fff;
   font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
@@ -400,29 +362,9 @@ body {
   font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
   color: #fff;
   padding: 10px 40px;
-  height: fit-content;
-  text-decoration: none;
-  outline: none;
-  display: inline-block;
-  position: relative;
   border: 2px solid #fff;
-  color: #fff;
-  transition: .4s;
 }
 
-.buy__button::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  border: 2px solid rgba(0,0,0,0);
-  transition: .4s;
-}
 .buy__button:hover::after {
   border-color: #fff;
   width: calc(100% - 10px);
@@ -431,6 +373,7 @@ body {
 
 .footer {
   display: flex;
+  animation: animation 4s;
 }
 
 .footer__left {
@@ -456,9 +399,7 @@ body {
 }
 
 .protection {
-  margin-top: 55px;
-  margin-bottom: 25px;
-  margin-left: 56px;
+  margin: 55px 0 25px 56px;
   font: 600 30px/37px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
@@ -480,29 +421,22 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 21px;
-  margin-top: 0;
-  margin-bottom: 16px;
-  padding-right: 90px;
+  margin: 0 90px 16px 0;
 }
 
 .five {
-  margin-top: 105px;
-  margin-left: 66px;
-  margin-bottom: 60px;
+  margin: 105px 0 60px 66px;
   background: no-repeat left url(img/done.png);
   color: #fff;
 }
 
 .five__title {
-  margin-left: 86px;
-  margin-bottom: 0;
-  margin-top: 10px;
+  margin: 10px 0 0 86px;
   font: 600 50px/55px montserrat, arial, helvetica, sans-serif;
 }
 
 .five__subtitle {
-  margin-left: 85px;
-  margin-top: 0;
+  margin: 0 0 0 85px;
   font: 600 25px/30px montserrat, arial, helvetica, sans-serif;
 }
 
@@ -513,16 +447,14 @@ body {
 
 .footer__text {
   font: 600 197px/244px montserrat, arial, helvetica, sans-serif;
-  margin-top: 100px;
-  margin-left: 191px;
+  margin: 100px 0 0 191px;
   color: #e51937;
   opacity: 0.1;
 }
 
 .footer__icon {
   position: absolute;
-  margin-top: 223px;
-  margin-left: -95px;
+  margin: 223px 0 0 -95px;
 }
 
 .footer-button {
@@ -533,9 +465,7 @@ body {
 }
 
 .more__button {
-  margin-right: 35px;
-  margin-top: 10px;
-  margin-left: 30px;
+  margin: 10px 35px 0 30px;
   text-decoration: none;
   color: #fff;
   font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
@@ -545,28 +475,9 @@ body {
   font: 700 13px/15px montserrat, arial, helvetica, sans-serif;
   color: #fff;
   padding: 10px 40px;
-  height: fit-content;
-  text-decoration: none;
-  outline: none;
-  display: inline-block;
-  position: relative;
   border: 2px solid #fff;
-  transition: .4s;
 }
 
-.order__button::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  border: 2px solid rgba(0,0,0,0);
-  transition: .4s;
-}
 .order__button:hover::after {
   border-color: #fff;
   width: calc(100% - 10px);
@@ -581,20 +492,54 @@ body {
 }
 
 .item1 {
-  margin-top: 221px;
-  margin-left: 169px;
+  margin: 221px 0 0 169px;
 }
 
 .item2 {
-  margin-top: 175px;
-  margin-left: 448px;
+  margin: 175px 0 0 448px;
 }
 
 .item3 {
   align-items: flex-end;
   width: 250px;
-  margin-top: 591px;
-  margin-left: 503px;
+  margin: 591px 0 0 503px;
+}
+
+.main-buy__button,
+.buy__button,
+.order__button {
+  height: fit-content;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  position: relative;
+  transition: .4s;
+}
+
+.main-buy__button::after,
+.buy__button::after,
+.order__button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid rgba(0,0,0,0);
+  transition: .4s;
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1439px) {
@@ -635,8 +580,6 @@ body {
 
   .main__row {
     width: 60%;
-    margin: auto;
-    margin-bottom: 15px;
   }
 
   .main-speed__column {
@@ -645,9 +588,7 @@ body {
   }
 
   .dropdown {
-    margin-top: 45px;
-    margin-bottom: 100px;
-    margin-left: 50%;
+    margin: 45px 0 100px 50%;
   }
 
   .main2 {
@@ -707,22 +648,13 @@ body {
     font-size: 27px;
   }
 
-  .quality {
-    padding-right: 80px;
-  }
-
   .five {
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin: 60px 0 50px 60px;
   }
 
   .five__title {
     background-size: 60px;
     font-size: 45px;
-  }
-
-  .footer-button {
-    width: 90%;
   }
 
   .more__button,
@@ -741,27 +673,22 @@ body {
 
   .item1 {
     font-size: 17px;
-    margin-top: 200px;
-    margin-left: 110px;
+    margin: 200px 0 0 117px;
   }
 
   .item2 {
     font-size: 17px;
-    margin-top: 190px;
-    margin-left: 335px;
+    margin: 190px 0 0 340px;
   }
 
   .item3 {
     font-size: 17px;
-    margin-top: 545px;
-    margin-left: 380px
+    margin: 545px 0 0 385px;
   }
 
   .footer__text {
-    overflow: hidden;
-    font-size: 150px;
-    margin-left: 205px;
-    margin-top: 140px;
+    font-size: 185px;
+    margin: 140px 0 0 105px;
   }
 }
 
@@ -804,9 +731,7 @@ body {
   }
 
   .dropdown {
-    margin-top: 45px;
-    margin-bottom: 100px;
-    margin-left: 50%;
+    margin: 45px 0 100px 50%;
   }
 
   .main2 {
@@ -866,22 +791,13 @@ body {
     font-size: 27px;
   }
 
-  .quality {
-    padding-right: 80px;
-  }
-
   .five {
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin: 60px 0 50px 60px;
   }
 
   .five__title {
     background-size: 60px;
     font-size: 45px;
-  }
-
-  .footer-button {
-    width: 90%;
   }
 
   .more__button,
@@ -900,26 +816,22 @@ body {
 
   .item1 {
     font-size: 15px;
-    margin-top: 230px;
-    margin-left: 48px;
+    margin: 230px 0 0 54px;
   }
 
   .item2 {
     font-size: 15px;
-    margin-top: 265px;
-    margin-left: 208px;
+    margin: 265px 0 0 214px;
   }
 
   .item3 {
     font-size: 15px;
-    margin-top: 555px;
-    margin-left: 240px
+    margin: 555px 0 0 244px;
   }
 
   .footer__text {
-    font-size: 110px;
-    margin-left: 30px;
-    margin-top: 240px;
+    font-size: 100px;
+    margin: 230px 0 0 60px;
   }
 }
 
@@ -1021,8 +933,7 @@ body {
   }
 
   .main-distance__item {
-    margin-bottom: 10;
-    margin-left: 60px;
+    margin: 0 0 10px 60px;
     font: 400 12px/15px montserrat, arial, helvetica, sans-serif;
   }
 
@@ -1035,8 +946,7 @@ body {
   }
 
   .main-text__button {
-    margin-left: 45px;
-    margin-top: 35px;
+    margin: 35px 0 0 45px;
     font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
   }
 
@@ -1050,6 +960,7 @@ body {
   }
 
   .dropdown  {
+    margin: 50px 0 65px 50%;
     margin-top: 50px;
     margin-left: 50%;
     margin-bottom: 65px;
@@ -1078,13 +989,11 @@ body {
   }
 
   .block__title {
-    margin-top: 60px;
-    margin-left: 35px;
+    margin: 60px 0 0 35px;
   }
 
   .block__subtitle {
-    margin-top: 20px;
-    margin-left: 35px;
+    margin: 20px 0 0 35px;
   }
 
   .block__functions {
@@ -1096,15 +1005,11 @@ body {
   }
 
   .display {
-    margin-left: 55px;
-    margin-bottom: 20px;
-    margin-top: 53px;
+    margin: 53px 0 20px 55px;
   }
 
   .display__title {
-    margin-top: 3px;
-    margin-right: 10px;
-    margin-left: 55px;
+    margin: 3px 10px 0 55px;
   }
 
   .display__subtitle {
@@ -1117,14 +1022,12 @@ body {
 
   .wifi {
     background: no-repeat left 18px url(img/wifi.svg);
-    margin-left: 50px;
-    margin-bottom: 25px;
+    margin: 0 0 25px 50px;
   }
 
   .wifi__title,
   .wifi__item {
-    margin-left: 65px;
-    margin-top: 2px;
+    margin: 2px 0 0 65px;
   }
 
   .block-volume {
@@ -1141,8 +1044,7 @@ body {
 
   .text__button {
     font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
-    margin-left: 44px;
-    margin-top: 18px;
+    margin: 18px 0 0 44px;
   }
 
   .buy__button {
@@ -1185,17 +1087,15 @@ body {
   }
 
   .protection {
-    margin-top: 63px;
-    margin-left: 72px;
+    margin: 63px 0 0 72px;
   }
 
   .location {
-    margin-top: 29px;
-    margin-left: 72px;
+    margin: 29px 0 0 72px;
   }
 
   .quality {
-    padding-right: 40px;
+    margin-right: 0;
   }
 
   .rack {
@@ -1215,8 +1115,7 @@ body {
   }
 
   .more__button {
-    margin-top: 17px;
-    margin-left: 44px;
+    margin: 17px 0 0 44px;
     font: 700 16px/20px montserrat, arial, helvetica, sans-serif;
   }
 
@@ -1235,23 +1134,19 @@ body {
   .footer__text {
     z-index: -1;
     font: 600 149px/180px montserrat, arial, helvetica, sans-serif;
-    margin-top: 40px;
-    margin-left: 82px;
+    margin: 40px 0 0 82px;
   }
 
   .item1 {
-    margin-top: 115px;
-    margin-left: 173px;
+    margin: 115px 0 0 173px;
   }
 
   .item2 {
-    margin-top: 83px;
-    margin-left: 372px;
+    margin: 83px 0 0 372px;
   }
 
   .item3 {
-    margin-top: 365px;
-    margin-left: 412px;
+    margin: 365px 0 0 412px;
   }
 
   .security {
@@ -1265,8 +1160,7 @@ body {
   }
 
   .security-3 {
-    margin-top: 58px;
-    margin-left: 10px;
+    margin: 58px 0 0 10px;
     width: 180px;
   }
 
@@ -1340,8 +1234,7 @@ body {
 
   .main__icon {
     background-size: 100vw;
-    margin-bottom: 7px;
-    margin-left: 0;
+    margin: 0 0 7px 0;
     justify-content: center;
   }
 
@@ -1375,16 +1268,12 @@ body {
 
   .main-distance__title {
     font: 600 27px/33px montserrat, arial, helvetica, sans-serif;
-    margin-left: 35px;
-    margin-top: 25px;
-    margin-right: 5px;
+    margin: 25px 5px 0 35px;
   }
 
   .main-speed__text,
   .main-distance__text {
-    margin-top: 35px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 35px 5px 0 5px;
     font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
   }
 
@@ -1394,8 +1283,7 @@ body {
   }
 
   .main-distance__item {
-    margin-bottom: 0;
-    margin-left: 38px;
+    margin: 0 0 0 38px;
     font: 400 10px/12px montserrat, arial, helvetica, sans-serif;
   }
 
@@ -1411,9 +1299,7 @@ body {
   }
 
   .main-text__button {
-    margin-top: 10px;
-    margin-right: 15px;
-    margin-left: 30px;
+    margin: 10px 15px 0 30px;
   }
 
   .main-buy__button {
@@ -1425,8 +1311,7 @@ body {
   }
 
   .dropdown {
-    margin-left: 50%;
-    margin-top: 25px;
+    margin: 25px 0 0 50%;
   }
 
   .main2 {
@@ -1454,8 +1339,7 @@ body {
 
   .block__subtitle {
     width: 80vw;
-    margin-left: 29px;
-    margin-top: 10px;
+    margin: 10px 0 0 29px;
   }
 
   .main2__text {
@@ -1470,28 +1354,19 @@ body {
 
   .footer__text {
     z-index: -1;
-    margin-top: 36px;
-    margin-left: -7px;
+    margin: 36px 0 0 -7px;
     font: 600 100px/100px montserrat, arial, helvetica, sans-serif;
   }
 
   .security {
-    margin-top: 0;
-    margin-left: 0;
+    margin: 0 0 0 0;
   }
 
-  .item1{
+  .item1,
+  .item2,
+  .item3{
     margin-left: 120px;
   }
-
-  .item2 {
-    margin-left: 120px;
-  }
-
-  .item3 {
-    margin-left: 120px;
-  }
-
 
   .security {
     font: 600 7px/7px montserrat, arial, helvetica, sans-serif;
@@ -1506,25 +1381,18 @@ body {
     margin-top: 57px;
   }
 
-  .security-3 {
-
-  }
-
   .line__item1 {
-    margin-top: 75px;
-    margin-left: 89px;
+    margin: 75px 0 0 89px;
     height: 97px;
   }
 
   .line__item2 {
-    margin-top: 59px;
-    margin-left: 185px;
+    margin: 59px 0 0 185px;
     height: 46px;
   }
 
   .line__item3 {
-    margin-top: 201px;
-    margin-left: 205px;
+    margin: 201px 0 0 205px;
     height: 41px;
   }
 
@@ -1542,9 +1410,7 @@ body {
   .footer__title,
   .footer__subtitle {
     width: 80vw;
-    margin-left: 32px;
-    margin-right: 17px;
-    margin-top: 16px;
+    margin: 16px 17px 0 32px;
   }
 
   .footer {
@@ -1618,9 +1484,8 @@ body {
   }
 
   .main__icon {
-    margin-left: 0;
+    margin: 0 0 7px 0;
     justify-content: center;
-    margin-bottom: 7px;
   }
 
   .main__column {
@@ -1647,16 +1512,12 @@ body {
 
   .main-distance__title {
     font: 600 27px/33px montserrat, arial, helvetica, sans-serif;
-    margin-left: 35px;
-    margin-top: 25px;
-    margin-right: 5px;
+    margin: 25px 5px 0 35px;
   }
 
   .main-speed__text,
   .main-distance__text {
-    margin-top: 35px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 35px 5px 0 5px;
     font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
   }
 
@@ -1666,8 +1527,7 @@ body {
   }
 
   .main-distance__item {
-    margin-bottom: 0;
-    margin-left: 38px;
+    margin: 0 0 0 38px;
     font: 400 10px/12px montserrat, arial, helvetica, sans-serif;
   }
 
@@ -1683,9 +1543,7 @@ body {
   }
 
   .main-text__button {
-    margin-top: 10px;
-    margin-right: 15px;
-    margin-left: 30px;
+    margin: 10px 15px 0 30px;
   }
 
   .main-buy__button {
@@ -1697,8 +1555,7 @@ body {
   }
 
   .dropdown {
-    margin-left: 178px;
-    margin-top: 25px;
+    margin: 25px 0 0 178px;
   }
 
   .main2 {
@@ -1714,7 +1571,7 @@ body {
   }
 
   .block {
-    margin-top: 175px;
+    margin-top: 170px;
     width: 100vw;
     height: 304px;
   }
@@ -1726,8 +1583,7 @@ body {
 
   .block__subtitle {
     width: 340px;
-    margin-left: 29px;
-    margin-top: 10px;
+    margin: 10px 0 0 29px;
   }
 
   .footer__right {
@@ -1737,16 +1593,13 @@ body {
   }
 
   .footer__text {
-    overflow: hidden;
     z-index: -1;
-    margin-top: 36px;
-    margin-left: 50px;
-    font: 600 100px/100px montserrat, arial, helvetica, sans-serif;
+    margin: 36px 0 0;
+    font: 600 90px/100px montserrat, arial, helvetica, sans-serif;
   }
 
   .security {
-    margin-top: 0;
-    margin-left: 0;
+    margin: 0;
   }
 
   .security {
@@ -1763,20 +1616,17 @@ body {
   }
 
   .line__item1 {
-    margin-top: 75px;
-    margin-left: 89px;
+    margin: 75px 0 0 89px;
     height: 97px;
   }
 
   .line__item2 {
-    margin-top: 59px;
-    margin-left: 185px;
+    margin: 59px 0 0 185px;
     height: 46px;
   }
 
   .line__item3 {
-    margin-top: 201px;
-    margin-left: 205px;
+    margin: 201px 0 0 205px;
     height: 41px;
   }
 
@@ -1790,9 +1640,7 @@ body {
   .footer__title,
   .footer__subtitle {
     width: 320px;
-    margin-left: 32px;
-    margin-right: 17px;
-    margin-top: 16px;
+    margin: 16px 17px 0 32px;
   }
 
   .footer {
@@ -1809,9 +1657,9 @@ body {
   }
 }
 
-@media screen and (min-width: 100px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .wrapper {
-    width: 100vw;
+    max-width: 375px;
   }
 
   .header {
@@ -1877,7 +1725,7 @@ body {
     justify-content: space-between;
     width: 90%;
     margin: auto;
-    margin-bottom: 43px;
+    margin-bottom: 33px;
   }
 
   .speed{
@@ -1896,16 +1744,12 @@ body {
 
   .main-distance__title {
     font: 600 27px/33px montserrat, arial, helvetica, sans-serif;
-    margin-left: 35px;
-    margin-top: 25px;
-    margin-right: 5px;
+    margin: 25px 5px 0 35px;
   }
 
   .main-speed__text,
   .main-distance__text {
-    margin-top: 35px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 35px 5px 0 5px;
     font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
   }
 
@@ -1915,7 +1759,6 @@ body {
   }
 
   .main-distance__item {
-    margin-bottom: 0;
     margin-left: 38px;
     font: 400 10px/12px montserrat, arial, helvetica, sans-serif;
   }
@@ -1932,9 +1775,7 @@ body {
   }
 
   .main-text__button {
-    margin-top: 12px;
-    margin-right: 15px;
-    margin-left: 30px;
+    margin: 12px 15px 0 30px;
   }
 
   .main-buy__button {
@@ -1946,14 +1787,13 @@ body {
   }
 
   .dropdown {
-    margin-left: 178px;
-    margin-top: 25px;
+    margin: 25px 0 0 178px;
   }
 
   .main2 {
     display: block;
     width: 100vw;
-    background: no-repeat left -40px url(img/mobile/salon.svg);
+    background: no-repeat left top url(img/mobile/salon.svg);
   }
 
   .main2__title {
@@ -1962,7 +1802,7 @@ body {
   }
 
   .block {
-    margin-top: 200px;
+    margin-top: 240px;
     width: 100vw;
     height: 304px;
   }
@@ -1974,8 +1814,7 @@ body {
 
   .block__subtitle {
     width: 340px;
-    margin-left: 29px;
-    margin-top: 10px;
+    margin: 10px 0 0 29px;
   }
 
   .footer__right {
@@ -1987,17 +1826,12 @@ body {
   .footer__text {
     overflow: hidden;
     z-index: -1;
-    margin-top: 36px;
-    margin-left: -7px;
-    font: 600 100px/100px montserrat, arial, helvetica, sans-serif;
+    margin: 36px 0 0 -7px;
+    font: 600 93px/100px montserrat, arial, helvetica, sans-serif;
   }
 
   .security {
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  .security {
+    margin: 0;
     font: 600 7px/7px montserrat, arial, helvetica, sans-serif;
   }
 
@@ -2010,25 +1844,18 @@ body {
     margin-top: 57px;
   }
 
-  .security-3 {
-
-  }
-
   .line__item1 {
-    margin-top: 75px;
-    margin-left: 89px;
+    margin: 75px 0 0 89px;
     height: 97px;
   }
 
   .line__item2 {
-    margin-top: 59px;
-    margin-left: 185px;
+    margin: 59px 0 0 185px;
     height: 46px;
   }
 
   .line__item3 {
-    margin-top: 201px;
-    margin-left: 205px;
+    margin: 201px 0 0 205px;
     height: 41px;
   }
 
@@ -2042,9 +1869,7 @@ body {
   .footer__title,
   .footer__subtitle {
     width: 320px;
-    margin-left: 32px;
-    margin-right: 17px;
-    margin-top: 16px;
+    margin: 16px 17px 0 32px;
   }
 
   .footer {
