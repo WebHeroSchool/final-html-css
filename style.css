@@ -250,7 +250,7 @@ body {
 }
 
 .block__title {
-  margin: 50px 0 10px 50px;
+  margin: 53px 0 12px 50px;
   font: 600 30px/36px montserrat, arial, helvetica, sans-serif;
   color: #fff;
 }
@@ -296,7 +296,7 @@ body {
 .wifi {
   display: run-in;
   align-items: flex-start;
-  background: no-repeat left 20px url(img/wifi.svg);
+  background: no-repeat left 15px url(img/wifi.svg);
   margin: 0 0 27px 50px;
 }
 
@@ -974,26 +974,27 @@ body {
   }
 
   .main2__title {
-    margin-top: 10px;
+    margin: 10px 0 0 434px;
   }
 
   .block {
-    margin-top: 346px;
+    margin-top: 406px;
     width: 100vw;
     height: 487px;
   }
 
   .main2__functions {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
   .block__title {
-    margin: 60px 0 0 35px;
+    margin: 55px 0 0 35px;
   }
 
   .block__subtitle {
-    margin: 20px 0 0 35px;
+    margin: 23px 65px 0 35px;
+    width: 300px;
   }
 
   .block__functions {
@@ -1037,7 +1038,6 @@ body {
   .section-button {
     display: flex;
     justify-content: space-between;
-    margin-top: 52px;
     width: 60%;
     background: no-repeat left url(img/ipad/more.svg);
   }
@@ -1831,6 +1831,7 @@ body {
   }
 
   .security {
+    width: 250px;
     margin: 0;
     font: 600 7px/7px montserrat, arial, helvetica, sans-serif;
   }
@@ -1841,7 +1842,7 @@ body {
   }
 
   .security-2 {
-    margin-top: 57px;
+    margin-top: 59px;
   }
 
   .line__item1 {
@@ -1855,13 +1856,13 @@ body {
   }
 
   .line__item3 {
-    margin: 201px 0 0 205px;
+    margin: 202px 0 0 204px;
     height: 41px;
   }
 
   .footer__left{
     order: 2;
-    margin-top: 40px;
+    margin-top: 41px;
     width: 100vw;
     height: 303px;
   }
