@@ -28,12 +28,23 @@ body {
   margin: 24px 50px 0 0;
 }
 
-.menu__item {
+.menu__item,
+.menu-ru__item {
   position: relative;
   font: 15px/18px montserratsemibold, arial, helvetica, sans-serif;
   text-decoration: none;
-  margin-right: 46px;
   color: #000;
+}
+
+.menu__item_drop {
+  position: relative;
+  font: 40px/90px montserratsemibold, arial, helvetica, sans-serif;
+  text-decoration: none;
+  color: #e51937;
+}
+
+.menu__item {
+  margin-right: 46px;
 }
 
 .menu__item:last-child {
@@ -42,11 +53,7 @@ body {
 }
 
 .menu-ru__item {
-  position: relative;
-  font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
-  text-decoration: none;
   margin-right: 30px;
-  color: #000;
 }
 
 .menu__item_active::after {
@@ -58,14 +65,17 @@ body {
   width: 100%;
   height: 3px;
   background: #e51937;
-  animation: main 1s;
 }
 
-.menu__item:hover {
+.menu__item:hover,
+.menu-ru__item:hover,
+.menu__item_drop:hover {
   opacity: 0.5;
 }
 
-.menu__item::after {
+.menu__item::after,
+.menu-ru__item::after,
+.menu__item_drop::after {
   position: absolute;
   right: 0;
   top: 22px;
@@ -79,31 +89,89 @@ body {
 }
 
 .menu__item:hover::after,
-.menu__item_active::after {
+.menu__item_active::after,
+.menu-ru__item:hover::after,
+.menu__item_drop {
   opacity: 1;
   width: 100%;
 }
 
-.menu-ru__item:hover {
-  opacity: 0.5;
+#menu__toggle {
+  opacity: 0;
 }
 
-.menu-ru__item::after {
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 38px;
+  right: 80px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
   display: block;
   position: absolute;
-  left: 0;
-  top: 20px;
-  content: '';
-  width: 0;
-  height: 3px;
-  background: #e51937;
-  opacity: 0;
-  transition: opacity 0.5s, width 0.5s;
+  width: 100%;
+  height: 2px;
+  background-color: #e51937;
 }
 
-.menu-ru__item:hover::after {
-  opacity: 1;
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+  transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.menu__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: 100%;
   width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+  transition: left 0.5s;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  background-color: transparent;
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(45deg);
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(-45deg);
+  transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
 }
 
 .main {
