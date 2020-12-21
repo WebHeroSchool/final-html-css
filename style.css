@@ -21,7 +21,7 @@ body {
 .menu-ru {
   display: flex;
   align-items: center;
-  margin: 25px 20px 0 0;
+  margin: 25px 55px 0 0;
 }
 
 .logo {
@@ -1557,8 +1557,9 @@ body {
     margin-top: 20px;
   }
 
-  .menu__line {
-    margin-bottom: 15px;
+  .menu__btn {
+    top: 15px;
+    right: 54px;
   }
 
   .main {
