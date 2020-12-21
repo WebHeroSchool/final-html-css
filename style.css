@@ -53,6 +53,7 @@ body {
 }
 
 .menu-ru__item {
+  font: 600 15px/18px montserrat, arial, helvetica, sans-serif;
   margin-right: 30px;
 }
 
@@ -97,15 +98,16 @@ body {
 }
 
 #menu__toggle {
+  display: none;
   opacity: 0;
 }
 
 .menu__btn {
   display: flex;
   align-items: center;
-  position: fixed;
+  position: absolute;
   top: 38px;
-  right: 80px;
+  right: 64px;
   width: 23px;
   height: 23px;
   cursor: pointer;
@@ -176,7 +178,7 @@ body {
 
 .main {
   background: no-repeat center -15px url(img/tesla-wordmark-big.svg);
-  animation: animation 4s;
+  animation: animation 2s;
 }
 
 .main__title {
@@ -615,6 +617,11 @@ body {
     width: 100vw;
   }
 
+  .menu-ru {
+    margin-right: 45px;
+  }
+
+
   .menu__item {
     margin-right: 36px;
     font: 600 13px/18px montserrat, arial, helvetica, sans-serif;
@@ -624,6 +631,13 @@ body {
     margin-right: 25px;
     font: 600 13px/18px montserrat, arial, helvetica, sans-serif;
   }
+
+  .menu__btn {
+    right: 55px;
+    width: 24px;
+    height: 25px
+  }
+
 
   .main {
     background: no-repeat center 0 url(img/tesla-wordmark-big.svg);
@@ -775,6 +789,12 @@ body {
     font: 600 13px/18px montserrat, arial, helvetica, sans-serif;
   }
 
+  .menu__btn {
+    top: 40px;
+    right: 30px;
+    width: 23px;
+  }
+
   .main {
     background: no-repeat center 15px url(img/1024/background.svg);
   }
@@ -908,6 +928,10 @@ body {
     width: 100vw;
   }
 
+  .header {
+    width: 96%;
+  }
+
   .logo {
     margin-right: 0;
   }
@@ -921,9 +945,10 @@ body {
     display: none;
   }
 
-  .header {
-    background: no-repeat 685px 38px url(img/ipad/menu.svg);
-    width: 96%;
+  .menu__btn {
+    top: 35px;
+    right: 54px;
+    width: 25px
   }
 
   .tesla-main {
@@ -1282,6 +1307,13 @@ body {
 
   .menu__line {
     margin-bottom: 15px;
+  }
+
+  .menu__btn {
+    top: 15px;
+    right: 20px;
+    width: 23px;
+    height: 23px;
   }
 
   .main {
