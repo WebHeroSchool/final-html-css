@@ -6,59 +6,199 @@
      <link rel="stylesheet" href="fonts.css">
      <link rel="stylesheet" href="style.css">
      <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
+  <div class="wrapper">
     <header class="header">
       <div class="logo">
-      <img src="img/tesla-wordmark-red.svg">
+      <img src="img/tesla-wordmark-red.svg" class="logo__icon">
       </div>
       <nav class="menu">
-        <a class="menu__item" href="#">Model S</a>
+        <a class="menu__item menu__item_active" href="#">Model S</a>
         <a class="menu__item" href="#">Model X</a>
         <a class="menu__item" href="#">Model 3</a>
         <a class="menu__item" href="#">Roadster</a>
         <a class="menu__item" href="#">Energy</a>
         </nav>
-        <div class="menu-ru">
+      <nav class="menu-ru">
         <a class="menu-ru__item" href="#">Магазин</a>
         <a class="menu-ru__item" href="#">Войти</a>
-        <div class="menu__line">
-          <img src="img/vector1.svg">
-        </div>
-        </div>
+      </nav>
     </header>
     <section class="main">
+      <div class="tesla__title">
       <h1 class="main__title">Model S</h1>
       <p class="main__subtitle">Добро пожаловать в будущее!</p>
+    </div>
       <div class="main__icon">
-        <img src="img/tesla-png-tesla-png-hd-1636.svg">
+        <img src="img/tesla-png-tesla-png-hd-1636.svg" class="tesla-main">
       </div>
     <div class="main__row">
       <div class="main__column">
+    <div class="speed">
       <div class="main-speed__column">
-          <div class="main-speed__icon"></div>
-          <div class="main-speed__title">2,7</div>
-          <div class="main-speed__text">сек</div>
-          <div class="main-speed__item">0-100 км/час</div>
+          <span class="main-speed__title">2,7</span>
+          <span class="main-speed__text">сек</span>
       </div>
+          <p class="main-speed__item">0-100 км/час</p>
+    </div>
+    <div class="distance">
       <div class="main-distance__column">
-        <div class="main-distance__icon">
-          <img src="img/road.svg">
-        </div>
-        <div class="main-distance__title">632</div>
-        <div class="main-distance__text">км</div>
-        <div class="main-distance__item">запас хода</div>
+        <span class="main-distance__title">632</span>
+        <span class="main-distance__text">км</span>
       </div>
-    </div>
+        <p class="main-distance__item">запас хода</p>
+      </div>
+      </div>
     <div class="main__button">
-      <div class="main-test__button">
-        <a class="main-text__button">Тест драйв</a>
-        <img src="img/steering-wheel.svg">
-      </div>
-      <a class="main-buy__button">Заказать</a>
+        <a class="main-text__button" href="">ТЕСТ ДРАЙВ</a>
+        <a class="main-buy__button" href="#">ЗАКАЗАТЬ</a>
     </div>
-  </div>
+    </div>
+  <div class="dropdown"></div>
     </section>
+  </div>
+    <section class="main2">
+      <h2 class="main2__title">Model S</h2>
+      <div class="block">
+      <div class="main2__functions">
+        <div class="main2__text">
+          <h3 class="block__title">Будущее вождения</h3>
+          <p class="block__subtitle">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным <nobr>17-дюймовым</nobr> сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
+        </div>
+      <div class="block__functions">
+          <div class="display">
+          <div class="block__display">
+            <span class="display__title">17</span>
+            <span class="display__subtitle">дюймов</span>
+            </div>
+            <p class="display__item">Большой дисплей</p>
+          </div>
+        <div class="wifi">
+          <p class="wifi__title">Беспроводное обновление ПО</p>
+          <p class="wifi__item">Повышенная функциональность</p>
+        </div>
+        <div class="volume">
+          <div class="block-volume">
+            <span class="volume__title">894</span>
+            <span class="volume__subtitle">литра</span>
+          </div>
+            <p class="volume__item">Объем грузового пространства</p>
+        </div>
+      </div>
+      </div>
+          <div class="section-button">
+            <a class="text__button" href="">УЗНАТЬ БОЛЬШЕ</a>
+            <a class="buy__button" href="#">ЗАКАЗАТЬ</a>
+          </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__left">
+      <div class="footer__info">
+        <div class="footer__item">
+          <h4 class="footer__title">Самый безопасный автомобиль в мире</h4>
+          <p class="footer__subtitle">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+        </div>
+      <div class="info">
+        <h5 class="protection">Оценка защиты:</h5>
+      <div class="location">
+      <div class="quality">
+        <p class="front">СПЕРЕДИ</p>
+        <div class="quality__star">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+        </div>
+      </div>
+      <div class="quality">
+        <p class="side">СБОКУ</p>
+        <div class="quality__star">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+        </div>
+      </div>
+    <div class="quality">
+      <div>
+        <span class="side2">СБОКУ</span>
+        <span class="rack">(стойка)</span>
+      </div>
+      <div class="quality__star">
+        <img src="img/star.svg">
+        <img src="img/star.svg">
+        <img src="img/star.svg">
+        <img src="img/star.svg">
+        <img src="img/star.svg">
+      </div>
+    </div>
+    <div class="quality">
+        <p class="driver">ВОДИТЕЛЬ</p>
+        <div class="quality__star">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+        </div>
+    </div>
+    <div class="quality">
+        <p class="passengeer">ПАССАЖИР</p>
+        <div class="quality__star">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+          <img src="img/star.svg">
+        </div>
+    </div>
+      </div>
+        <div class="five">
+          <h6 class="five__title">5 звёзд</h6>
+          <p class="five__subtitle">безопасности</p>
+        </div>
+      </div>
+    </div>
+      <div class="footer-button">
+        <a class="more__button" href="">УЗНАТЬ БОЛЬШЕ</a>
+        <a class="order__button" href="#">ЗАКАЗАТЬ</a>
+      </div>
+    </div>
+      <div class="footer__right">
+        <p class="footer__text">Model S</p>
+        <img src="img/frame.svg" class="footer__icon">
+          <div class="security item1">
+            <img class="line__item1" src="img/line1.svg">
+            <div class="security-1">Защита от удара спереди</div>
+          </div>
+          <div class="security item2">
+            <img class="line__item2" src="img/line2.svg">
+            <div class="security-2">Защита&nbsp;от удара сбоку</div>
+        </div>
+        <div class="security item3">
+          <img class="line__item3" src="img/line3.svg">
+          <div class="security-3">Минимальный&nbsp;риск перевернуться в аварии</div>
+        </div>
+      </div>
+    </footer>
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul class="menu__box">
+      <li><a class="menu__item_drop" href="#">Model S</a></li>
+      <li><a class="menu__item_drop" href="#">Model X</a></li>
+      <li><a class="menu__item_drop" href="#">Model 3</a></li>
+      <li><a class="menu__item_drop" href="#">Roadster</a></li>
+      <li><a class="menu__item_drop" href="#">Energy</a></li>
+      </ul>
+  </div>
 </body>
 </html>
